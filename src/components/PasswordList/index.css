@@ -1,0 +1,131 @@
+.ElectricBlue {
+  background-color: #0b69ff;
+}
+
+.PaleBlue {
+  background-color: #94a3b8;
+}
+
+.LightGray {
+  background-color: #b6c3ca;
+}
+
+.BlueGray {
+  background-color: #7683cb;
+}
+
+.Orange {
+  background-color: #f59e0b;
+}
+
+.SeafoamGreen {
+  background-color: #10b981;
+}
+
+.BurntOrange {
+  background-color: #f97316;
+}
+
+.Teal {
+  background-color: #14b8a6;
+}
+
+.Red {
+  background-color: #b91c1c;
+}
+
+.Turquoise {
+  background-color: #0ea5e9;
+}
+
+.SteelBlue {
+  background-color: #64748b;
+}
+
+@media (max-width: 576px) {
+  .password-list-flexbox-inner {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    border: 1px solid #c3caea;
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  .profile-user-data {
+    display: flex;
+  }
+
+  .dp {
+    padding: 15px;
+    border-radius: 50%;
+  }
+
+  .data-section {
+    margin-left: 25px;
+    color: white;
+    font-family: Roboto;
+    width: 200px;
+  }
+
+  .hide-img {
+    width: 100%;
+  }
+  .delete-btn-flexbox {
+    height: fit-content;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+  }
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .delete-img {
+    width: 80%;
+  }
+}
+@media (min-width: 577px) {
+  .password-list-flexbox-inner {
+    display: flex;
+    width: clamp(30%, 250px, 33%);
+    align-self: center;
+    border: 1px solid #c3caea;
+    border-radius: 15px;
+    padding: 15px;
+  }
+  .profile-user-data {
+    display: flex;
+  }
+  .dp {
+    padding: 15px;
+    border-radius: 50%;
+  }
+
+  .data-section {
+    margin-left: 25px;
+    color: white;
+    font-family: Roboto;
+    width: 200px;
+  }
+
+  .hide-img {
+    width: 100%;
+  }
+  .delete-btn-flexbox {
+    height: fit-content;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+  }
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 80%;
+  }
+  .delete-img {
+    width: 80%;
+  }
+}
